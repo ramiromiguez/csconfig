@@ -1,4 +1,5 @@
 
+
 fps_max 0
 sensitivity 1
 cl_use_opens_buy_menu 0
@@ -13,10 +14,10 @@ bind mwheeldown +jump
 bind space +jump
 
 //GUNS//
-bind MOUSE4 "use weapon_flashbang"
-bind MOUSE5 "use weapon_smokegrenade"
-bind 4 "use weapon_hegrenade"
-bind f "use weapon_molotov;use weapon_incgrenade"
+bind MOUSE5 "use weapon_flashbang"
+bind MOUSE4 "use weapon_smokegrenade"
+bind f "use weapon_hegrenade"
+bind 4 "use weapon_molotov;use weapon_incgrenade"
 bind 6 "use weapon_decoy"
 
 //MINIMAP//
@@ -29,6 +30,5 @@ cl_hud_playercount_showcount 1
 
 bind MOUSE3 +voicerecord
 bind c r_cleardecals
-bind v lookatweapon
 
 con_filter_enable 2 -> con_filter_text Damage -> con_filter_text_out Player:
