@@ -7,6 +7,7 @@ cl_use_opens_buy_menu 0
 voice_scale 0.3
 mat_monitorgamma “1.9”
 r_drawtracers_firstperson 0
+_cl_autowepswitch 0
 
 //MOVMENT//
 bind mwheelup +jump
@@ -47,3 +48,15 @@ bind MOUSE3 +voicerecord
 bind c r_cleardecals
 
 con_filter_enable 2 -> con_filter_text Damage -> con_filter_text_out Player:
+
+graphics:
+calidad de sombras global: muy baja
+detalles de models: alta
+flujo de texturas: desactivado
+detalles de efecto: alta
+detalles de sombreador: muy alta
+aumentar el contraste de los jugadores: activado
+renderizador multinucleo: activado
+muestreo multiple: x8
+fxaa: activado
+filtrado de textura: trilineal
